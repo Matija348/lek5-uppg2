@@ -1,0 +1,75 @@
+/* Ladda in Google-fonter */
+body {
+    font-family: 'Mountains of Christmas', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stil för header med bakgrundsbild */
+.header {
+    background-image: url('snow_winter_trees.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #D6001C;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+/* Huvudcontainer som använder flexbox */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid #D6001C;
+}
+
+/* Vänster div */
+.left {
+    flex: 1;
+    border: 2px solid #D6001C;
+    padding: 10px;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+}
+
+/* Main-content div */
+.main-content {
+    flex: 2;
+    border: 2px solid #D6001C;
+    padding: 10px;
+}
+
+/* Höger div */
+.right {
+    flex: 1;
+    border: 2px solid #D6001C;
+    padding: 10px;
+}
+
+.right img {
+    width: 100%;
+    height: auto;
+}
+
+/* Sidfot */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #D6001C;
+}
+
+footer a {
+    color: #D6001C;
+    text-decoration: none;
+}
